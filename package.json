@@ -11,7 +11,8 @@
     "url": "git+https://github.com/NotoSgnikusnsi/helloworld-node.js.git"
   },
   "keywords": [
-    "node.js"
+    "node.js",
+    "Hello World"
   ],
   "author": "NotoSgnikusnsi",
   "license": "ISC",
