@@ -1,5 +1,5 @@
-# Use node.js v12
-FROM node:12
+# Use node.js v16-alpine3.15
+FROM node:16-alpine3.15
 # WORK DIRECTORY is app
 WORKDIR /app
 # Copy package.json and package-lock.json
@@ -11,4 +11,4 @@ COPY . .
 # Use port 3000
 EXPOSE 3000
 # Run app
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
