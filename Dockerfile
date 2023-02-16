@@ -11,4 +11,4 @@ COPY . .
 # Use port 3000
 EXPOSE 3000
 # Run app
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
